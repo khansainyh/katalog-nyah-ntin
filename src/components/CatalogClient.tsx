@@ -9,7 +9,7 @@ function urlFor(source: any) {
   return builder.image(source).auto('format').fit('max').url();
 }
 
-const categories = ["Semua", "Katering", "Jajanan Pasar", "Snack", "Bakery"];
+const categories = ["Semua", "Makanan Berat", "Jajanan Pasar", "Snack", "Bakery", "Cake", "Kue Kering"];
 
 export default function CatalogClient({ initialProducts }: { initialProducts: any[] }) {
   const [activeCategory, setActiveCategory] = useState("Semua");

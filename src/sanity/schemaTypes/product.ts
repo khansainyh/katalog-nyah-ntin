@@ -30,10 +30,12 @@ export const productType = defineType({
       type: "string",
       options: {
         list: [
-          { title: "Katering", value: "Katering" },
+          { title: "Makanan Berat", value: "Makanan Berat" },
           { title: "Jajanan Pasar", value: "Jajanan Pasar" },
           { title: "Snack", value: "Snack" },
           { title: "Bakery", value: "Bakery" },
+          { title: "Cake", value: "Cake" },
+          { title: "Kue Kering", value: "Kue Kering" },
         ],
       },
       validation: (Rule) => Rule.required(),
