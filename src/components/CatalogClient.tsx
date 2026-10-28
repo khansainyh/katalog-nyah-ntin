@@ -106,7 +106,7 @@ export default function CatalogClient({ initialProducts }: { initialProducts: an
                   )}
 
                   <a 
-                    href={`https://wa.me/6281234567890?text=Halo%20Nyah%20N'tin,%20saya%20tertarik%20memesan%20${encodeURIComponent(product.name || "")}`}
+                    href={`https://wa.me/6281228611300?text=Halo%20Nyah%20N'tin,%20saya%20tertarik%20memesan%20${encodeURIComponent(product.name || "")}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-[#25D366] hover:bg-[#20b858] text-white text-center py-3.5 rounded-xl font-bold transition-colors flex items-center justify-center gap-2 shadow-sm"
