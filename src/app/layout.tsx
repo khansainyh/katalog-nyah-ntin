@@ -15,6 +15,12 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Katalog Nyah N'tin",
   description: "Menyajikan Katering, Jajanan Pasar, dan Aneka Kue dengan Resep Tradisional Asli.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
